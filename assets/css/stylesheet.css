@@ -1,0 +1,104 @@
+body
+{
+    font-family: sans-serif;
+}
+
+.body-content
+{
+    background-color: white;
+    max-width: 800px;
+    margin-left: 25px;
+}
+
+h1, h2
+{
+    font-family:'Montserrat';
+}
+
+.header-h1
+{
+    text-align: center;
+    font-family:'Russo One'
+}
+
+/* Navbar */
+
+.navbar ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    overflow: hidden;
+    background-color: #3AA8C1;
+}
+
+.navbar li
+{
+    float: left;
+}
+
+.navbar li a 
+{
+    font-family: 'Montserrat';
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    color: white;
+    background-color: 	#3AA8C1;
+    text-decoration: none;
+}
+
+.navbar li a:hover 
+{
+    background-color: #111;
+}
+
+/* Footer */
+
+.footer ul
+{
+    list-style-type: none;
+    overflow: hidden;
+    clear: both;
+    background-color: #696969;
+}
+
+.footer li a 
+{
+    font-family: 'Montserrat';
+    display: block;
+    padding: 14px 32px;
+    text-align: right;
+    color: white;
+}
+
+/* Image display */
+
+.portfolio-display
+{
+
+   /* margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px; */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+
+}
+
+.portfolio-display img 
+{
+
+    border: 1px solid #ccc;
+    max-width: 100%; 
+    max-height: 200px
+
+}
+
+.portfolio-display img:hover 
+{
+
+  border-color: #777;
+}
